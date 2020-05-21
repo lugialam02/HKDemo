@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9AB2056D246EA60600455A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2056C246EA60600455A26 /* AppDelegate.swift */; };
-		9AB2056F246EA60600455A26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2056E246EA60600455A26 /* SceneDelegate.swift */; };
 		9AB20571246EA60600455A26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB20570246EA60600455A26 /* ViewController.swift */; };
 		9AB20574246EA60600455A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB20572246EA60600455A26 /* Main.storyboard */; };
 		9AB20576246EA60700455A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB20575246EA60700455A26 /* Assets.xcassets */; };
@@ -78,7 +77,6 @@
 /* Begin PBXFileReference section */
 		9AB20569246EA60600455A26 /* HKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB2056C246EA60600455A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AB2056E246EA60600455A26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9AB20570246EA60600455A26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AB20573246EA60600455A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AB20575246EA60700455A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -158,7 +156,6 @@
 				9AB205AC246EA71D00455A26 /* HealthKit */,
 				9AB205A8246EA6DD00455A26 /* HKDemo.entitlements */,
 				9AB2056C246EA60600455A26 /* AppDelegate.swift */,
-				9AB2056E246EA60600455A26 /* SceneDelegate.swift */,
 				9AB20570246EA60600455A26 /* ViewController.swift */,
 				9AB20572246EA60600455A26 /* Main.storyboard */,
 				9AB20575246EA60700455A26 /* Assets.xcassets */,
@@ -371,7 +368,6 @@
 				9AB2056D246EA60600455A26 /* AppDelegate.swift in Sources */,
 				9AE515242473DE0E0033ABCE /* UserVital.swift in Sources */,
 				9AE515222473D4E70033ABCE /* HKBloodType+StringRepresentation.swift in Sources */,
-				9AB2056F246EA60600455A26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +631,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ALXZ4CCDH8;
 				INFOPLIST_FILE = HKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -642,7 +639,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lglam.HKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -654,6 +651,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ALXZ4CCDH8;
 				INFOPLIST_FILE = HKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -661,7 +659,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lglam.HKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

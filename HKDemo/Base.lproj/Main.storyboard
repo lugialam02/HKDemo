@@ -215,8 +215,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtu-Br-fja">
-                                <rect key="frame" x="186" y="574" width="70" height="30"/>
-                                <state key="normal" title="Load Data"/>
+                                <rect key="frame" x="201" y="574" width="124" height="30"/>
+                                <state key="normal" title="Read HealKit Data"/>
                                 <connections>
                                     <action selector="reloadData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1g1-U1-xPN"/>
                                 </connections>
@@ -230,7 +230,7 @@
                             <constraint firstItem="Uee-0j-aNJ" firstAttribute="trailing" secondItem="Hbt-uX-wz1" secondAttribute="trailing" id="HH5-Do-v8S"/>
                             <constraint firstItem="Uee-0j-aNJ" firstAttribute="trailing" secondItem="rqu-Ya-3e8" secondAttribute="trailing" id="IWb-cG-0yU"/>
                             <constraint firstItem="rqu-Ya-3e8" firstAttribute="top" secondItem="Hbt-uX-wz1" secondAttribute="bottom" constant="8" id="RBL-33-f8M"/>
-                            <constraint firstItem="wtu-Br-fja" firstAttribute="leading" secondItem="LGV-lr-NBA" secondAttribute="trailing" constant="15" id="UvJ-BM-7fw"/>
+                            <constraint firstItem="wtu-Br-fja" firstAttribute="leading" secondItem="LGV-lr-NBA" secondAttribute="trailing" constant="30" id="UvJ-BM-7fw"/>
                             <constraint firstItem="rqu-Ya-3e8" firstAttribute="leading" secondItem="Uee-0j-aNJ" secondAttribute="leading" id="cXh-ty-MZs"/>
                             <constraint firstItem="wtu-Br-fja" firstAttribute="top" secondItem="LGV-lr-NBA" secondAttribute="top" id="mKS-Pp-at6"/>
                             <constraint firstItem="Hbt-uX-wz1" firstAttribute="leading" secondItem="Uee-0j-aNJ" secondAttribute="leading" id="syg-t1-ulc"/>
