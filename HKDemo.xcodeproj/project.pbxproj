@@ -10,8 +10,8 @@
 		02E717765D01FE2BBD67A996 /* Pods_HKDemo_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B192C71B9F141739EB6E9D55 /* Pods_HKDemo_WatchKit_Extension.framework */; };
 		27B726FEB287BCE2707AFEF4 /* Pods_HKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0284838B62E31F86E56B800B /* Pods_HKDemo.framework */; };
 		6BFD4C17A616171F18B2DF7E /* Pods_HKDemo_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406B4F03711A121B60C55F69 /* Pods_HKDemo_WatchKit_App.framework */; };
-		9A4DEE70249337370078808C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DEE6F249337360078808C /* GoogleService-Info.plist */; };
 		9A4DEE7224933A400078808C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DEE7124933A3F0078808C /* SceneDelegate.swift */; };
+		9A4DEE7424935BAB0078808C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DEE6F249337360078808C /* GoogleService-Info.plist */; };
 		9AB2056D246EA60600455A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB2056C246EA60600455A26 /* AppDelegate.swift */; };
 		9AB20571246EA60600455A26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB20570246EA60600455A26 /* ViewController.swift */; };
 		9AB20574246EA60600455A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB20572246EA60600455A26 /* Main.storyboard */; };
@@ -285,6 +285,7 @@
 				9AB20567246EA60600455A26 /* Resources */,
 				9AB205A4246EA60900455A26 /* Embed Watch Content */,
 				F556E23B6ACA083CCED8DBBA /* [CP] Embed Pods Frameworks */,
+				9A4DEE7324933FB40078808C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -380,7 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AB20579246EA60700455A26 /* LaunchScreen.storyboard in Resources */,
-				9A4DEE70249337370078808C /* GoogleService-Info.plist in Resources */,
+				9A4DEE7424935BAB0078808C /* GoogleService-Info.plist in Resources */,
 				9AB20576246EA60700455A26 /* Assets.xcassets in Resources */,
 				9AB20574246EA60600455A26 /* Main.storyboard in Resources */,
 			);
@@ -471,6 +472,25 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		9A4DEE7324933FB40078808C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
 		F556E23B6ACA083CCED8DBBA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -772,6 +792,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HKDemo/HKDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ALXZ4CCDH8;
 				INFOPLIST_FILE = HKDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

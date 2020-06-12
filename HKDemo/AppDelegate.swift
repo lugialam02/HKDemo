@@ -20,6 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use the Firebase library to configure APIs.
         FirebaseApp.configure()
 
+        #if arch(i386) || arch(x86_64)
+        let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString
+          NSLog("Document Path: %@", documentsPath)
+        #endif
         return true
     }
 
