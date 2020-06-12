@@ -98,6 +98,38 @@
             endingLineNumber = "118"
             landmarkName = "loadMostRecentWeight()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DCE52AEF-0ED3-45C3-A475-455FB243F2C7 - 7236ad3f02a2fade"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HKDemo.ViewController.(loadMostRecentWeight in _32C1B42508DB0DB5223C0CC52E5EA02A)() -&gt; ()"
+                  moduleName = "HKDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/HKDemo/HKDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "227">
+               </Location>
+               <Location
+                  uuid = "DCE52AEF-0ED3-45C3-A475-455FB243F2C7 - a0147f92141b2876"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.HKQuantitySample&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HKDemo.ViewController.(loadMostRecentWeight in _32C1B42508DB0DB5223C0CC52E5EA02A)() -&gt; ()"
+                  moduleName = "HKDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/HKDemo/HKDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -114,6 +146,38 @@
             endingLineNumber = "91"
             landmarkName = "loadMostRecentHeight()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "549F8ACA-2E08-46F9-9D4A-561EEE8BEB68 - fdb3439de36affcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HKDemo.ViewController.(loadMostRecentHeight in _32C1B42508DB0DB5223C0CC52E5EA02A)() -&gt; ()"
+                  moduleName = "HKDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/HKDemo/HKDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "227">
+               </Location>
+               <Location
+                  uuid = "549F8ACA-2E08-46F9-9D4A-561EEE8BEB68 - a0147f92141b2876"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.HKQuantitySample&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HKDemo.ViewController.(loadMostRecentHeight in _32C1B42508DB0DB5223C0CC52E5EA02A)() -&gt; ()"
+                  moduleName = "HKDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/HKDemo/HKDemo/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

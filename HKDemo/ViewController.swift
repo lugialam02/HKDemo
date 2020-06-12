@@ -8,6 +8,7 @@
 
 import UIKit
 import HealthKit
+import FirebaseCrashlytics
 
 class ViewController: UIViewController {
     @IBOutlet weak var ageLabel: UILabel!
